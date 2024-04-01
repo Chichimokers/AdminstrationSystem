@@ -20,7 +20,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body >
 
 
 
@@ -31,10 +31,13 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
 
-                <div class="product-card card bg-dark text-white border-0">
-
-                    <img src="{{ e.Image }}" class="card-img-top img-responsive center-block" alt="...">
-
+                <div class=" product-card card bg-dark text-white border">
+                    <a href="{{ e.Image }}">
+                    <img src="{{ e.Image }}"  class="card-img-top img-responsive center-block" style="height: 20em;" alt="...">
+                    
+                    </a>
+                    <div style="padding-top: 5em;">
+                    
                     <div class="card-body">
 
                         <h5 class="card-title">{{ e.titulo }}</h5>
