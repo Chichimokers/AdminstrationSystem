@@ -2,7 +2,7 @@
 Litte administration system created in c++ 
 
 
-Using in the project
+## Libs used in the project
 
 -vectors
 -fstream
